@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h1,
+h2,
+h3 {
+  color: #231d3c;
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.img-positioning {
+  display: block;
+  margin: 30px auto;
+  width: 75%;
+}
+
+.cities {
+  background: #fff;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.first {
+  position: relative;
+  top: -15px;
+}
+
+.second {
+  position: relative;
+  top: 3px;
+  left: -24px;
+}
+
+.third {
+  position: relative;
+  top: 22px;
+  left: -49px;
+}

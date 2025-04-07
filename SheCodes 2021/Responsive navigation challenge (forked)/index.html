@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SheCodes</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .navbar-blue {
+        background: blue;
+      }
+
+      .logo {
+        max-width: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img src="images/logo.png" alt="SheCodes Logo" class="logo" />
+    <h1>Responsive navigation</h1>
+
+    <h3>Challenge 1</h3>
+    <p>Import Bootstrap (CSS and JS)</p>
+
+    <h3>Challenge 2</h3>
+    <p>
+      Include a basic blue responsive navigation below (don't change the
+      content)
+    </p>
+    <nav class="navbar navbar-light navbar-blue">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+      </div>
+    </nav>
+    <h3>Challenge 3</h3>
+    <p>
+      Include a basic light colored navigation here, replace Navbar by the
+      SheCodes logo, add 3 links,
+      <br />
+      one called Stories (going to https://www.shecodes.io/stories),
+      <br />
+      one called Workshop going to (https://www.shecodes.io/workshops)
+      <br />
+      and one called Students (going to https://www.shecodes.io/students).
+    </p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="SheCodes logo" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="https://www.shecodes.io/stories"
+              >Stories</a
+            >
+            <a class="nav-link" href="https://www.shecodes.io/workshops"
+              >Workshop</a
+            >
+            <a class="nav-link" href="https://www.shecodes.io/students"
+              >Students</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>

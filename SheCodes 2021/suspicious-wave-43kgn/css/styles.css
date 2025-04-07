@@ -1,0 +1,13 @@
+.container {
+  background: rgb(245, 222, 222);
+}
+
+.city-buttons {
+  background: white;
+  padding: 10px;
+}
+
+.main {
+  padding: 10px;
+  background: yellow;
+}

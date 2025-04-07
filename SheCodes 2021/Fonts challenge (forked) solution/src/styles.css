@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  color: #231d3c;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.first {
+  color: red;
+  font-size: 20px;
+}
+
+.second {
+  color: green;
+  font-size: 40px;
+}
+
+.third {
+  color: yellow;
+  font-size: 60px;
+}

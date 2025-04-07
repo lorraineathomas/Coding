@@ -1,0 +1,33 @@
+:root {
+  --header-color: #34ebbd;
+  --text-color: #3496eb;
+  --background-color: #ffe0ed;
+  --box-shadow: 6px 2px 5px teal;
+}
+
+body {
+  background: linear-gradient(to top, var(--background-color), white 50%);
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+h1 {
+  box-shadow: var(--box-shadow);
+  color: var(--header-color);
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h1 h2,
+h3 {
+  color: var(--text-color);
+}
+
+.logo {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}

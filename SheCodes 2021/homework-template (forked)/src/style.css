@@ -1,0 +1,91 @@
+:root {
+  --main-color: #6c63ff;
+  --other-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  display: block;
+}
+
+#back,
+#mail-link {
+  display: block;
+  text-align: center;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+.contact-link {
+  background: var(--main-color);
+  color: var(--other-color);
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.about-link {
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  padding: 20px 15px;
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.columns {
+  display: flex;
+  margin: 30px 0;
+}
+
+p {
+  background: var(--other-color);
+  border-radius: 4px;
+  display: block;
+  font-size: 18px;
+  flex: 1;
+  line-height: 1.5;
+  margin: 10px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding: 20px;
+  text-align: center;
+}

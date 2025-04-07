@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react-animated-weather": "^4.0.1"
+  },
+  "devDependencies": {
+    "install-vscode-extensions": "^1.0.0"
+  }
+}
