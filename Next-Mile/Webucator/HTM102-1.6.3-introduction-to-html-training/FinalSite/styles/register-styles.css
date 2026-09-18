@@ -1,0 +1,30 @@
+/* -- REGISTER STYLES -- */
+
+form {
+  margin: auto;
+  width: 75%;
+}
+
+form div {
+  margin: 0.5rem;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin: 0.3rem 0;
+}
+
+form input {
+  box-sizing: border-box;
+  padding: 0.2rem;
+  width: 100%;
+}
+
+form button {
+  background-color: #e5152c;
+  color: white;
+  font-size: x-large;
+  width: 100%;
+}
+
