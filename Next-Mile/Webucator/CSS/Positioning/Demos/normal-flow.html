@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="../normalize.css" rel="stylesheet">
+<style>
+  .block {
+    background: lightblue;
+    border: solid black;
+    margin: 1rem;
+    padding: 0.5rem;
+  }
+
+  .inline {
+    background: pink;
+    border: solid black;
+    padding: 0.1rem;
+  }
+</style>
+<title>Normal Flow</title>
+</head>
+<body class="webucator">
+<h1>Normal Flow</h1>
+<main>
+  <div class="block">
+    This is a div element, a standard block element.
+  </div>
+  <p class="block">
+    This is a paragraph element, 
+    another block element, that contains a 
+    <span class="inline">
+      span element, which is a standard inline element
+    </span>.
+  </p>
+  <div class="block"> 
+    This is a div element that contains a paragraph element.
+      <p class="block">
+        This is a paragraph element that contains two 
+        <span class="inline">span</span>
+        <span class="inline">elements</span>. 
+        It also contains a lot more content 
+        like these fake sentences: 
+        Lorem ipsum dolor 
+        sit amet, consectetur adipiscing elit. 
+        Curabitur tristique odio ac sem congue luctus.
+      </p>
+  </div>
+</main>
+</body>
+</html>

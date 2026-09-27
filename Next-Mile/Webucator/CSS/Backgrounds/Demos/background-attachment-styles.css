@@ -1,0 +1,33 @@
+/* The "container" id is used for display purposes only */
+#container{
+  border: 1px solid black;
+  height: 400px;
+  overflow: auto;
+  width: 300px;
+}
+
+/* The "box" class is used for display purposes only */
+.box {
+  background-repeat: repeat-y;
+  border: 1px solid black;
+  height: 100px;
+  margin: 1rem;
+  padding: 1rem;
+  overflow: auto;
+  width: 200px;
+}
+
+#scroll {
+  background-attachment: scroll;
+  background-image: url(images/circle.png);
+}
+
+#fixed {
+  background-attachment: fixed;
+  background-image: url(images/circle.png);
+}
+
+#local {
+  background-attachment: local;
+  background-image: url(images/circle.png);
+}

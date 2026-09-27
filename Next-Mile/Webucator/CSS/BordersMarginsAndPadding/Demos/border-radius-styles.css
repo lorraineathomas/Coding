@@ -1,0 +1,24 @@
+.border {
+  border-style: solid;
+  padding: 1rem;
+}
+
+#div1 {
+  border-radius: 1rem;
+}
+
+#div2 {
+  border-radius: 1rem 2rem;
+}
+
+#div3 {
+  border-radius: 1rem 2rem / 0.5rem;
+}
+
+#div4 {
+  border-radius: 1rem 2rem 3rem / 0.5rem 1.5rem;
+}
+
+#div5 {
+  border-radius: 1rem 2rem 3rem 4rem / 0.5rem 1.5rem 2.5rem 3.5rem;
+}

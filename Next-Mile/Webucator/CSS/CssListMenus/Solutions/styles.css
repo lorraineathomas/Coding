@@ -1,0 +1,230 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-image: url(images/runners.png);
+  background-size: cover;
+  font: 1rem/1.3 Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  background-color: white;
+  border: solid rgb(110, 78, 226) 0.1rem;
+  margin: -1rem -0.5rem 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav a {
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: rgb(230, 230, 230);
+}
+
+nav a:active {
+  color: red;
+}
+
+#resources-li ul {
+  background: white;
+  border-color: rgb(110, 78, 226);
+  border-style: none solid solid;
+  border-width: 0.1rem;
+  display: none;
+  position: absolute;
+  top: 40px;
+}
+
+#resources-li li {
+  float: none;
+  font-size: 0.9rem;
+}
+
+#blog-li ul {
+  border-top: solid rgb(110, 78, 226) 0.1rem;
+  position: absolute;
+  top: 50px;
+  left: 143px;
+}
+
+#blog-li ul li {
+  font-size: smaller;
+}
+
+#resources-li:hover>ul {
+  display: block;
+}
+
+#blog-li:hover>ul {
+  display: block;
+}
+
+main {
+  background: rgba(232, 232, 232, 0.8);
+  padding: 2%;
+  max-width: 1000px;
+  min-width: 750px;
+}
+
+#welcome {
+  font-size: larger;
+}
+
+#welcome h1 {
+  color: rgb(8, 5, 211);
+  text-shadow: 0.2rem 0.2rem 0.1rem rgb(211, 200, 238);
+}
+
+article {
+  background: white;
+  border: 1px ridge rgb(226, 77, 40);
+  box-sizing: border-box;
+  margin: 1em auto;
+  padding: 1rem;
+  max-width: 75%;
+  text-align: center;
+}
+
+article h2 {
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+}
+
+article p {
+  line-height: 2;
+  text-align: left;
+  text-indent: 3rem;
+}
+
+article:hover {
+  box-shadow: 0 0 1rem 0.5rem rgba(189, 101, 189, 0.5);
+}
+
+article p:first-of-type::first-line {
+  font-style: italic;
+}
+
+article p:first-of-type::first-letter {
+  font-size: larger;
+  font-weight: bold;
+}
+
+a, a:visited {
+  color: blue;
+}
+
+.read-more {
+  text-decoration: none;
+}
+
+a.read-more:hover {
+  text-decoration: underline;
+}
+
+a.read-more:active {
+  color: purple;
+}
+
+aside label {
+  font-weight: bold;
+}
+
+#newsletter {
+  background: white;
+  border: 1px dashed rgb(110, 78, 226);
+  border-radius: 1em;
+  margin: 0 1rem;
+  padding: .5rem 1rem;
+  text-align: right;
+}
+
+footer {
+  font-size: smaller;
+  font-style: italic;
+  margin: 1rem;
+}
+
+#running-log {
+  background: white;
+  border-collapse: collapse;
+  font: 0.9rem Georgia, Times, serif;
+  margin: auto;
+  table-layout: fixed;
+  width: 700px;
+}
+
+table,
+th,
+td {
+  border: solid black 1px;
+  padding: 0.2rem;
+}
+
+caption {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-decoration: underline;
+}
+
+#route,
+#notes {
+  width: 25%;
+}
+
+#running-log thead {
+  background: #559;
+  color: white;
+  text-decoration: underline;
+}
+
+tbody tr:nth-child(odd) {
+  background: #cce;
+}
+
+#running-log tfoot td {
+  background-color: rgb(117, 117, 194);
+  padding: 0.5rem;
+  text-align: center;
+}
+
+#running-log tfoot a {
+  background: rgb(158, 170, 202);
+  border: rgb(70, 70, 100);
+  border-radius: 0.5rem;
+  border-style: none solid solid none;
+  border-width: 0 0.2rem 0.2rem 0;
+  color: black;
+  font-size: 1.1rem;
+  padding: 0.2rem 2rem;
+  text-decoration: none;
+}
+
+#running-log tfoot a:hover {
+  color: rgb(97, 8, 133);
+}
+
+#running-log tfoot a:active {
+  color:#cce;
+  border-width: 0 0.1rem 0.1rem 0;
+}

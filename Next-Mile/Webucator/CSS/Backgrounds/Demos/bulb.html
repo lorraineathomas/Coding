@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="../normalize.css" rel="stylesheet">
+<title>Hints</title>
+<style>
+  body {
+    background-color: hsl(0,0%,98%);
+  }
+  .hint {
+    background-attachment: scroll;
+    background-image: url(images/bulb.png);
+    background-repeat: no-repeat;
+    background-position: right 0.5em top 0;
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    background-color: #ffc;
+    overflow: scroll;
+    border-radius: 10px;
+  }
+
+  .hint .hint-title {
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+
+  .hint .hint-content {
+    padding: 0.5em 3.5em 0.5em 0.5em;
+  }
+
+  .hint2 {
+    border: 1px solid black;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1em;
+  }
+
+  .hint2 .hint-title {
+    background-image: url(images/bulb.png);
+    background-repeat: no-repeat;
+    background-position: right 0.5em top 0;
+    background-size: contain;
+    font-size: 1.2em;
+    margin: .5em .5em 0 .5em;
+    padding: .1em;
+  }
+
+  .hint2 .hint-content {
+    padding: 0 1em;
+    overflow: scroll;
+    height: 100%;
+    background-color: #ffc;
+    border: double .5em rgba(0,102,255,.1);
+    background-clip: padding-box;
+    border-radius: 10px;
+  }
+</style>
+</head>
+<body class="webucator">
+  <h1>Hint Demo</h1>
+  <div class="hint">
+    <div class="hint-content">
+      <h1 class="hint-title">Hint Title</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Fusce feugiat, lectus vitae convallis ullamcorper, nunc sapien 
+      accumsan massa, in congue purus elit feugiat lectus. Ut interdum 
+      porttitor dolor id cursus. Donec pulvinar diam ac urna fermentum 
+      ultrices. Praesent dignissim lobortis erat vel elementum.
+      Nullam egestas augue a enim ornare vulputate. Praesent 
+      erat lacus, auctor vitae ipsum id, feugiat sagittis orci.
+      Etiam porta semper ipsum, et accumsan eros auctor at. 
+      Aenean turpis nisl, feugiat vel tristique eu, consequat 
+      eget quam. Etiam venenatis, tortor pulvinar consequat scelerisque,
+      augue tellus accumsan ipsum, non interdum sapien dolor sed libero. 
+      Nulla efficitur mauris at sem convallis, sit amet tincidunt libero egestas.
+      Nulla eu lobortis ex, in consectetur magna. Donec quis 
+      feugiat enim. Aliquam euismod, massa sed iaculis facilisis,
+      arcu risus faucibus purus, a ultricies sapien libero vel arcu. 
+      Nullam ut metus tristique, dapibus orci sed, semper nisl. 
+      Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    </div>
+  </div>
+  <hr>
+  <div class="hint2">
+    <h1 class="hint-title">Hint Title</h1>
+    <div class="hint-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      Fusce feugiat, lectus vitae convallis ullamcorper, nunc sapien 
+      accumsan massa, in congue purus elit feugiat lectus. Ut interdum 
+      porttitor dolor id cursus. Donec pulvinar diam ac urna fermentum 
+      ultrices. Praesent dignissim lobortis erat vel elementum.
+      Nullam egestas augue a enim ornare vulputate. Praesent 
+      erat lacus, auctor vitae ipsum id, feugiat sagittis orci.
+      Etiam porta semper ipsum, et accumsan eros auctor at. 
+      Aenean turpis nisl, feugiat vel tristique eu, consequat 
+      eget quam. Etiam venenatis, tortor pulvinar consequat scelerisque,
+      augue tellus accumsan ipsum, non interdum sapien dolor sed libero. 
+      Nulla efficitur mauris at sem convallis, sit amet tincidunt libero egestas.
+      Nulla eu lobortis ex, in consectetur magna. Donec quis 
+      feugiat enim. Aliquam euismod, massa sed iaculis facilisis,
+      arcu risus faucibus purus, a ultricies sapien libero vel arcu. 
+      Nullam ut metus tristique, dapibus orci sed, semper nisl. 
+      Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    </div>
+  </div>
+</body>
+</html>

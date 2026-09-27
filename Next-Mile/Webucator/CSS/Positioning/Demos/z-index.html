@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="../normalize.css" rel="stylesheet">
+<link href="z-index-styles.css" rel="stylesheet">
+<title>z-index</title>
+</head>
+<body class="webucator">
+<h1>z-index</h1>
+<nav>
+  <ol>
+    <li><a href="#section1">Section 1</a>
+      <ol>
+        <li><a href="#div1">Div 1</a></li>
+        <li><a href="#div2">Div 2</a></li>
+        <li><a href="#div3">Div 3</a></li>
+      </ol>
+    </li>
+    <li><a href="#section2">Section 2</a>
+    </li>
+    <li><a href="#section3">Section 3</a>
+    </li>
+  </ol>
+</nav>
+<hr>
+<section id="section1" class="top-section">
+  Section 1
+  <div id="div1" class="top-div">
+    Div 1
+  </div>
+  <div id="div2" class="middle-div">
+    Div 2
+  </div>
+  <div id="div3" class="bottom-div">
+    Div 3
+  </div>
+</section>
+<section id="section2" class="middle-section">
+  Section 2
+</section>
+<section id="section3" class="bottom-section">
+  Section 3
+</section>
+</body>
+</html>

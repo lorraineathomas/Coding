@@ -1,0 +1,42 @@
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  flex: 1;
+  height: 2.3rem;
+  z-index: 10;
+}
+
+nav ul li>a {
+  background: yellow;
+  color: black;
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+nav ul li>a:hover {
+  background: rgb(220, 220, 0);
+}
+
+nav ul li>a:active {
+  color: red;
+}
+
+nav ul li.contains>ul {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+nav ul li.contains:hover>ul {
+  visibility: visible;
+}
+
+/* Start your styles here */

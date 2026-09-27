@@ -1,0 +1,26 @@
+.border {
+  border: 1px solid black;
+}
+
+#div1 {
+  padding: 1em;
+}
+
+#div2 {
+  padding: 1em 2em;
+}
+
+#div3 {
+  padding: 1em 2em 3em;
+}
+
+#div4 {
+  padding: 1em 2em 3em 4em;
+}
+
+#div5 {
+  padding-top: 1em;
+  padding-right: 2em;
+  padding-bottom: 3em;
+  padding-left: 4em;
+}

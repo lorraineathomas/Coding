@@ -1,0 +1,39 @@
+/* The "box" class is used  for display purposes only */
+.box {
+  background-image: url(images/circle.png);
+  border: 1px solid black;
+  float: left; /* allows boxes to be side by side */
+  font-weight: bold;
+  height: 100px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 235px;
+}
+
+#repeat {
+  background-repeat: repeat;
+}
+
+#space {
+  background-repeat: space;
+}
+
+#round {
+  background-repeat: round;
+}
+
+#no-repeat {
+  background-repeat: no-repeat;
+}
+
+#repeat-x {
+  background-repeat: repeat-x;
+}
+
+#repeat-y {
+  background-repeat: repeat-y;
+}
+
+#repeat-space {
+  background-repeat: repeat space;
+}

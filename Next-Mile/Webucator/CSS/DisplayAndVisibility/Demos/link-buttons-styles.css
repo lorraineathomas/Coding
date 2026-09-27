@@ -1,0 +1,15 @@
+a.button-link {
+  background-color: #eaf1dd;
+  border-color: silver;
+  border-radius: 0.5rem;
+  border-style: none solid solid none;
+  border-width: 0 0.2rem 0.2rem 0;
+  color: #060;
+  display: block;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.5rem;
+  margin: .5rem;
+  padding: .5rem .2rem;
+  text-decoration: none;
+  width: 300px;
+}

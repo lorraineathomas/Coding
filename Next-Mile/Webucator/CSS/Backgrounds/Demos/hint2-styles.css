@@ -1,0 +1,32 @@
+body {
+  background-color: hsl(0,0%,98%);
+}
+
+.hint {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 200px;
+  padding: 1em;
+  width: 300px;
+}
+
+.hint .hint-title {
+  background-image: url(images/bulb.png);
+  background-position: right 0.5em top 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 1.2em;
+  margin: .5em .5em 0 .5em;
+  padding: .1em;
+}
+
+.hint .hint-content {
+  background-clip: padding-box;
+  background-color: #ffc;
+  border: double .5em rgba(0,102,255,.1);
+  border-radius: 10px;
+  height: 80%;
+  overflow: auto;
+  padding: 0 1em;
+}

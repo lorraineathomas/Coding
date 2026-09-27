@@ -1,0 +1,38 @@
+body {
+  background: aliceblue;
+}
+
+header {
+  background: gray;
+  border: black solid 1px;
+  border-radius: 1rem;
+  margin: auto;
+  width: 50%;
+}
+
+a,
+a:visited {
+  color: blue;
+}
+
+main {
+  background: white;
+  margin: auto;
+  width: 75%;
+}
+
+article {
+  border: black solid 1px;
+  border-radius: 0.5rem;
+  padding: 0.2rem 1rem 0.5rem;
+  margin: 0.5rem auto;
+}
+
+article p:first-of-type {
+  font-size: larger;
+}
+
+article p:last-of-type {
+  font-size: smaller;
+  font-style: italic;
+}

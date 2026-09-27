@@ -1,0 +1,63 @@
+/* The "box" class is used for display purposes only */
+.box {
+  background-image: url(images/star.png);
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  font-weight: bold;
+  height: 40px;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 40px;
+}
+
+#div1 {
+  background-position: center;
+}
+
+#div2 {
+  background-position: top;
+}
+
+#div3 {
+  background-position: bottom;
+}
+
+#div4 {
+  background-position: left;
+}
+
+#div5 {
+  background-position: right;
+}
+
+#div6 {
+  background-position: top 10px left 10px;
+}
+
+#div7 {
+  background-position: bottom 10% right 10%;
+}
+
+#div8 {
+  background-position: bottom 10% center;
+}
+
+#div9 {
+  background-position: 10px 10px;
+}
+
+#div10 {
+  background-position: 10% 10%;
+}
+
+#div11 {
+  background-position: 10% bottom;
+}
+
+#div12 {
+  background-position: right 20px;
+}
+
+#div13 {
+  background-position: right bottom;
+}

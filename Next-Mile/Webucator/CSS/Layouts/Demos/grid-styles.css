@@ -1,0 +1,41 @@
+body {
+  background: aliceblue;
+}
+
+main {
+  background: white;
+  display: grid;
+  gap: 1rem 0.5rem;
+  grid-template-columns: minmax(150px, 1fr) repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  margin: auto;
+  min-width: 600px;
+  padding: 0.5rem;
+  width: 80%;
+}
+
+main nav {
+  background: rgb(243, 241, 241);
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  grid-column: 1 / 2;
+  grid-row: 1 / -1;
+}
+
+article {
+  border: 1px solid black;
+  overflow: hidden;
+  padding: 0.5rem;
+  min-width: 100px;
+}
+
+article:target {
+  border: solid black;
+  grid-column: 2 / -1;
+  grid-row: 1;
+}
+
+article:target h3 {
+  text-decoration: underline;
+}

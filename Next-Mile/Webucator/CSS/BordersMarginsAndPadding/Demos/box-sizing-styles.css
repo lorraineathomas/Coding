@@ -1,0 +1,28 @@
+.parent {
+  background-color: lightyellow;
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+}
+
+#parent1 {
+  margin-bottom: 60px;
+}
+
+/* The "box" class is used for display purposes only */
+.box {
+  height: 280px;
+  width: 280px;
+  padding: 10px;
+  border: 10px solid red;
+  margin: 10px;
+  white-space: pre;
+}
+
+#content-box {
+  box-sizing: content-box;
+}
+
+#border-box {
+  box-sizing: border-box;
+}

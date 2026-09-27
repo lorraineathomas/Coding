@@ -1,0 +1,29 @@
+/* The "box" class is used for display purposes only */
+.box {
+  border-style: solid;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#div1 {
+  border-width: 1em;
+}
+
+#div2 {
+  border-width: 1em 1.5em;
+}
+
+#div3 {
+  border-width: 1em 1.5em 2em;
+}
+
+#div4 {
+  border-width: 1em 1.5em 2em 2.5em;
+}
+
+#div5 {
+  border-top-width: 1em;
+  border-right-width: 1.5em;
+  border-bottom-width: 2em;
+  border-left-width: 2.5em;
+}

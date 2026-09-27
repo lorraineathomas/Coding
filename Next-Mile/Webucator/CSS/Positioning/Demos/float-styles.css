@@ -1,0 +1,51 @@
+body {
+  background: aliceblue;
+}
+
+main {
+  background: white;
+}
+
+article {
+  border: 1px solid black;
+  margin: 0.5rem;
+  padding: 0.5rem;
+
+}
+
+img {
+  float: none;
+}
+
+.left {
+  background: rgba(0, 0, 255, 0.6);
+  float: left;
+  padding: 0.2rem;
+  width: 30px;
+  height: 100px;
+}
+
+article p:first-of-type::before {
+  content: "The image is not floated. ";
+  font-style: italic;
+}
+
+article.top-article:target img {
+  float: left;
+}
+
+article.top-article:target p:first-of-type::before {
+  content: "The image is floated to the left. ";
+  font-style: normal;
+  font-weight: bold;
+}
+
+article.middle-article:target img {
+  float: right;
+}
+
+article.middle-article:target p:first-of-type::before {
+  content: "The image is floated to the right. ";
+  font-style: normal;
+  font-weight: bold;
+}

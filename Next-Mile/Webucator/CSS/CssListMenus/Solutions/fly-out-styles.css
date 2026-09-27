@@ -1,0 +1,45 @@
+body {
+  background: aliceblue;
+}
+
+nav {
+  background: white;
+  position: absolute;
+  top: 4rem;
+  margin: 0 -0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: rgb(240, 240, 240);
+}
+
+nav a:active {
+  color: #cce;
+}
+
+.contains ul {
+  background: white;
+  display: none;
+  font-size: 0.9rem;
+  left: 88px;
+  position: absolute;
+  top: 201px;
+  width: 150px;
+}
+
+.contains:hover ul {
+  display: block;
+}

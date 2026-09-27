@@ -1,0 +1,37 @@
+/* The "box" class is used for display purposes only */
+.box {
+  background-image: url(images/circle.png);
+  border: 1px solid black;
+  font-weight: bold;
+  height: 100px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 150px;
+}
+
+#contain {
+  background-size: contain;
+}
+
+#cover {
+  background-size: cover;
+}
+
+#length {
+  background-size: 100px 75px;
+}
+
+#percentage {
+  background-size: 75% 80%;
+}
+
+#auto {
+  background-size: auto;
+  /* since auto is the default, 
+  it is not really necessary to 
+  specify it */
+}
+
+#auto-percentage {
+  background-size: auto 80%;
+}

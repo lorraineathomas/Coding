@@ -1,0 +1,29 @@
+/* The "box" class is used for display purposes only */
+.box {
+  border-width: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#dashed {
+  border-style: dashed;
+}
+
+#dotted-double {
+  border-style: dotted double;
+}
+
+#groove-hidden-inset {
+  border-style: groove hidden inset;
+}
+
+#none-outset-ridge-solid {
+  border-style: none outset ridge solid;
+}
+
+#longhand {
+  border-top-style: double;
+  border-right-style: groove;
+  border-bottom-style: dashed;
+  border-left-style: dotted;
+}

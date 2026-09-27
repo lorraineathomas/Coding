@@ -1,0 +1,13 @@
+/* The "box" class is used for display purposes only */
+.box {
+  border: 1px solid black;
+  font-weight: bold;
+  height: 150px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 300px;
+}
+
+#div1 {
+  background-image: url(images/star.png);
+}

@@ -1,0 +1,23 @@
+/* The "box" class is used for display purposes only */
+.box {
+  background-image: url(images/orange-background.png);
+  background-repeat: no-repeat;
+  border: 1rem double black;
+  font-weight: bold;
+  height: 100px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 150px;
+}
+
+#border-box {
+  background-origin: border-box;
+}
+
+#padding-box {
+  background-origin: padding-box;
+}
+
+#content-box {
+  background-origin: content-box;
+}

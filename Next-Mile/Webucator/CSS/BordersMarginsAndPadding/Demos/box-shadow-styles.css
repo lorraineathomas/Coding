@@ -1,0 +1,27 @@
+/* The "box" class is used for display purposes only */
+.box {
+  background-color: lightblue;
+  border: 1px solid black;
+  float: left; /* allows boxes to be side by side */
+  height: 100px;
+  margin: 15px; 
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+}
+
+#div1 {
+  box-shadow: .5rem .5rem gray;
+}
+
+#div2 {
+  box-shadow: .5rem .5rem 1rem gray;
+}
+
+#div3 {
+  box-shadow: .5rem .5rem 1rem .25rem gray;
+}
+
+#div4 {
+  box-shadow: inset -.5rem -.5rem 1.5rem .25rem gray;
+}

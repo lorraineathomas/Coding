@@ -1,0 +1,22 @@
+/* The "box" class is used for display purposes only */
+.box {
+  border: 1rem dashed black;
+  float: left; /* allows boxes to be side by side */
+  font-weight: bold;
+  height: 100px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 200px;
+}
+
+#div1 {
+  background: url(images/orange-background.png) padding-box;
+}
+
+#div2 {
+  background: url(images/star.png) space content-box;
+}
+
+#div3 {
+  background: url(images/circle.png) no-repeat center/50%;
+}

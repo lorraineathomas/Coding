@@ -1,0 +1,38 @@
+body {
+  background: aliceblue;
+}
+
+nav {
+  background: white;
+  margin: 0 -0.5rem;
+}
+
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: rgb(240, 240, 240);
+}
+
+nav a:active {
+  color: #cce;
+}

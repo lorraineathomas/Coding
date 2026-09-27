@@ -1,0 +1,68 @@
+body {
+  background: aliceblue;
+}
+
+main {
+  background: white;
+  margin: auto;
+  min-width: 600px;
+  width: 90%;
+}
+
+h2 {
+  margin: 0.2rem auto;
+  padding: 0.2rem;
+  width: 256px;
+}
+
+nav {
+  border: solid black;
+  border-radius: 0.5rem;
+  margin: auto;
+  min-width: 550px;
+  width: 90%;
+}
+
+nav ol {
+  columns: 4;
+  column-gap: 2rem;
+  margin: 0.2rem auto;
+  width: 90%;
+}
+
+div {
+  background: rgb(235, 233, 233);
+  box-sizing: border-box;
+  break-inside: avoid;
+  margin: 0 auto 1rem;
+  padding: 0;
+}
+
+div a {
+  display: block;
+  width: 100%;
+}
+
+div img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+div img:hover {
+  transform: scale(0.95);
+}
+
+#gallery {
+  columns: 200px;
+  column-fill: balance;
+  column-gap: 0.5rem;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+p.caption {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin: 0 1em;
+  padding: 0 1em;
+}

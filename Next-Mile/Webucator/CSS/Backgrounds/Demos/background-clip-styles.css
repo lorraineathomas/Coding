@@ -1,0 +1,22 @@
+/* The "box" class is used for display purposes only */
+.box {
+  background-color: rgba(255, 0, 0, 50%);
+  border: 1rem dotted black;
+  font-weight: bold;
+  height: 100px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 200px;
+}
+
+#border-box {
+  background-clip: border-box;
+}
+
+#padding-box {
+  background-clip: padding-box;
+}
+
+#content-box {
+  background-clip: content-box;
+}

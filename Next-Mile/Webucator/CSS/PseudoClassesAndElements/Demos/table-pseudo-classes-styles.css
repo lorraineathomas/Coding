@@ -1,0 +1,47 @@
+body {
+  background: aliceblue;
+}
+
+table,
+th,
+td {
+  border: solid black 1px;
+  border-collapse: collapse; /* collapses 
+                      the separate borders into single borders
+                      between the table elements */
+  padding: 0.2rem;
+}
+
+table {
+  margin: auto;
+  background: white;
+}
+
+caption {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+thead {
+  background: rgb(75, 75, 75);
+  color: white;
+  text-decoration: underline;
+}
+
+span.title {
+  font-style: italic;
+}
+
+tfoot {
+  background: rgb(75, 75, 75);
+  color: white;
+}
+
+tbody td:first-child {
+  font-style: italic;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ccc;
+}

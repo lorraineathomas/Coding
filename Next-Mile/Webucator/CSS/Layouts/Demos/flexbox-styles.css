@@ -1,0 +1,38 @@
+body {
+  background: aliceblue;
+}
+
+main {
+  background: white;
+  width: 98%;
+  margin: auto;
+}
+
+section {
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0.5rem auto;
+}
+
+section article {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  flex: 1;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  min-width: 200px;
+}
+
+h2 {
+  width: 100%;
+  margin-left: 0.5rem;
+}
+
+section article:target {
+  flex: 3;
+}
+
+section article:target h3 {
+  text-decoration: underline;
+}

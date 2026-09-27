@@ -1,0 +1,65 @@
+nav {
+  background: lightgray;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  width: 300px;
+}
+
+section {
+  background: rgba(211, 211, 211, 0.8);
+  border: 1px solid black;
+  position: relative;
+  height: 200px;
+  width: 300px;
+}
+
+.top-section {
+  z-index: 3;
+}
+
+.middle-section {
+  top: -3rem;
+  z-index: 2;
+}
+
+.bottom-section {
+  top: -20rem;
+  left: 10rem;
+  z-index: 1;
+}
+
+div {
+  background: rgba(128, 128, 128, 0.8);
+  border: 1px solid black;
+  height: 100px;
+  position: absolute;
+  width: 100px;
+}
+
+.top-div {
+  left: 1rem;
+  top: 2rem;
+  z-index: 3;
+}
+
+.middle-div {
+  left: 4rem;
+  top: 3.5rem;
+  z-index: 2;
+}
+
+.bottom-div {
+  left: 8rem;
+  top: 5rem;
+  z-index: 1;
+}
+
+:target {
+  /* Set z-index of targeted element to 100 */
+  z-index: 100;
+}
+
+/* Add text to targeted element */
+:target::after {
+  content: "(z-index: 100)"
+}

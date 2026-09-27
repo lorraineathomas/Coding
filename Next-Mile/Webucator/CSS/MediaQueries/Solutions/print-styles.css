@@ -1,0 +1,176 @@
+body {
+  background: rgb(219, 158, 44);
+}
+
+h1.title {
+  background: url(images/veggies.png) left/contain;
+  color: rgb(240, 181, 72);
+  padding: 2em 1em 0.2em;
+  margin: -1rem -0.5rem 0;
+  text-shadow: 0 0 0.2rem blue;
+}
+
+header {
+  background: lightgray;
+  padding-right: 1rem;
+  margin: 0 -0.5rem;
+  width: 100%;
+}
+
+nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ol li {
+  float: left;
+}
+
+nav ol li.contains ol {
+  background: lightgray;
+  display: none;
+  font-size: smaller;
+  position: absolute;
+}
+
+nav ol li.contains:hover ol {
+  display: block;
+}
+
+nav ol li ol li {
+  float: none;
+}
+
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: rgb(209, 181, 148);
+  transition: background 0.4s;
+}
+
+nav a:active {
+  color: red;
+}
+
+main {
+  background: rgb(219, 218, 218);
+  margin: 0 auto 0;
+  padding: 0.2rem 1rem 1rem;
+  width: 95%;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+.recipe-photo {
+  width: 300px;
+}
+
+section,
+aside {
+  background: whitesmoke;
+  padding: 0.1rem 0.4rem 0.4rem;
+  margin: 0 auto 0.4rem;
+}
+
+aside {
+  border: solid blue;
+  border-radius: 0.5rem;
+  width: 90%;
+}
+
+aside::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+aside div {
+  float: left;
+  width: 33.3%;
+}
+
+aside div a {
+  display: block;
+  width: 100%;
+}
+
+aside div img {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+aside div img:hover {
+  transform: scale(0.95);
+}
+
+footer {
+  background: lightgray;
+  font-size: medium;
+  font-style: italic;
+  min-width: 640px;
+  margin: 0 auto;
+  padding: 0.2rem 1rem;
+  width: 95%;
+}
+
+footer::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer h2 {
+  margin: 0;
+}
+
+footer a.image {
+  margin: 0.2rem;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer p {
+  float: right;
+}
+
+.print-callout {
+  display: none;
+}
+
+@media print {
+  h1.title,
+  header, 
+  footer, 
+  aside,
+  img.recipe-photo {
+    display: none;
+  }
+
+  body,
+  main,
+  section {
+    background: white;
+  }
+
+  .print-callout {
+    display: block;
+    font-size: medium;
+    font-style: italic;
+    text-align: right;
+  }
+}

@@ -1,0 +1,24 @@
+/* The "box" class is used for display purposes only */
+.box {
+  border: 1px solid black;
+  float: left;
+  height: 200px;
+  margin: 0 0 4rem 0.5rem;
+  width: 45%;
+}
+
+#visible {
+  overflow: visible;
+}
+
+#hidden {
+  overflow: hidden;
+}
+
+#scroll {
+  overflow: scroll;
+}
+
+#auto {
+  overflow: auto;
+}

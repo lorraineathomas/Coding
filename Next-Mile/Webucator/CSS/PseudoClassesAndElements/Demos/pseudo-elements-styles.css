@@ -1,0 +1,57 @@
+body {
+  background: aliceblue;
+}
+
+header {
+  background: gray;
+  border: black solid 1px;
+  border-radius: 1rem;
+  margin: auto;
+  width: 200px;
+}
+
+main {
+  background: white;
+  border: black solid 1px;
+  margin: 0.5rem auto;
+  width: 400px;
+}
+
+section {
+  margin: auto;
+  width: 75%;
+}
+
+a, 
+a:visited {
+  color: blue;
+}
+
+aside {
+  margin: 0.5rem auto;
+  width: 75%;
+}
+
+.bio {
+  font-style: italic;
+}
+
+:target h2::before {
+  content: "\2192";
+}
+
+section p:first-of-type::first-line {
+  font-style: italic;
+}
+
+section p:first-of-type::first-letter {
+  font-size: xx-large;
+}
+
+.note::after {
+  content:"*"
+}
+
+.bio::before {
+  content:"*";
+}

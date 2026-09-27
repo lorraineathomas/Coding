@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="../normalize.css" rel="stylesheet">
+<style>
+  div {
+    background: rgb(206, 206, 206);
+    border: black solid 1px;
+    box-sizing: border-box;
+    height: 130px;
+    margin: 70px;
+    padding: 10px;
+    width: 130px;
+  }
+
+  #unchanged {
+    transform: none;
+  }
+
+  #rotate1 {
+    transform: rotate(45deg);
+  }
+
+  #rotate2 {
+    transform: rotate(-75deg);
+  }
+
+  #scale1 {
+    transform: scale(1.5);
+  }
+
+  #scale2 {
+    transform: scale(-1.5, 1);
+  }
+
+  #skew1 {
+    transform: skew(20deg);
+  }
+
+  #skew2 {
+    transform: skew(-20deg, 10deg);
+  }
+
+  #translate1 {
+    transform: translate(50px);
+  }
+
+  #translate2 {
+    transform: translate(-50px, 50px);
+  }
+</style>
+<title>transform Examples</title>
+</head>
+<body class="webucator">
+  <h1>transform Examples</h1>
+  <div id="unchanged">Unchanged div</div>
+  <div id="rotate1">Rotate 45deg clockwise</div>
+  <div id="rotate2">Rotate 75deg counterclockwise</div>
+  <div id="scale1">Scale by 1.5</div>
+  <div id="scale2">Scale by -1.5 horizontally and 1 vertically</div>
+  <div id="skew1">Skew 20deg horizontally</div>
+  <div id="skew2">Skew -20deg horizontally and 10deg vertically</div>
+  <div id="translate1">Translate 50px to the right</div>
+  <div id="translate2">Translate 50px to the left and 50px down</div>
+</body>
+</html>

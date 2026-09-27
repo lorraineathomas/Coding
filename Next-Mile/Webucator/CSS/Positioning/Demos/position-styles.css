@@ -1,0 +1,34 @@
+body {
+  border: 1px dotted black;  
+}
+
+section {
+  border: 1px solid black;
+  margin: 2rem;
+  position: relative;
+}
+
+div {
+  background: rgba(0, 0, 255, 0.5);
+  border: 1px dashed black;
+  height: 25px;
+  margin: auto;
+  width: 75px;
+  top: 75px;
+  left: 75px;
+}
+
+.relative {
+  background: rgba(255, 0, 0, 0.5);
+  position: relative;
+}
+
+.absolute {
+  background: rgba(0, 255, 0, 0.5);
+  position: absolute;
+}
+
+.fixed {
+  background: rgba(255, 255, 0, 0.5);
+  position: fixed;
+}

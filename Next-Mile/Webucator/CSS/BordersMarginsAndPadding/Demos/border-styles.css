@@ -1,0 +1,22 @@
+.padding {
+  padding: 1rem;
+}
+
+#div1 {
+  border: 1px solid red;
+}
+
+#div2 {
+  border: green dotted;
+}
+
+#div3 {
+  border: 0.3rem blue;
+}
+
+#div4 {
+  border-top: 1px solid red;
+  border-right: green dotted;
+  border-bottom: 0.3rem dashed purple;
+  border-left: 1rem blue double;
+}
