@@ -5,7 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="../normalize.css" rel="stylesheet" />
     <title>Home Run Hitters</title>
-    <link href="styles.css" rel="stylesheet" />
+    <style>
+      body {
+        background-attachment: fixed;
+        background-image: url(images/baseball.png);
+        background-position: bottom;
+        background-repeat: repeat-x;
+      }
+      table {
+        background-color: white;
+        border-collapse: collapse;
+        margin: auto;
+        min-width: 800px;
+      }
+      caption {
+        font-style: italic;
+      }
+
+      thead {
+        background-color: darkblue;
+        color: white;
+      }
+
+      td,
+      th {
+        border: 1px solid orange;
+        margin: 0;
+        padding: 0.3em;
+      }
+
+      td tfoot {
+        background-color: silver;
+        border-top: 2px solid black;
+        font-weight: bold;
+      }
+
+      .steroids-era {
+        font-style: italic;
+      }
+
+      #key {
+        background-color: lightgray;
+        font-style: italic;
+      }
+
+      tr td:nth-child(2) {
+        text-align: center;
+      }
+
+      .steroids-era td:first-child:after {
+        content: "*";
+      }
+    </style>
   </head>
   <body class="webucator">
     <table>
