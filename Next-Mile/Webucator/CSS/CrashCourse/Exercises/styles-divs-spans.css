@@ -1,20 +1,20 @@
 div {
-  border: .3em solid purple;
+  border: 0.3em solid purple;
   padding: 1em;
   text-align: center;
 }
 
 span {
-  border: .3rem solid gray;
+  border: 0.3rem solid gray;
   color: white;
   font-size: 3em;
   font-family: monospace;
-  padding: .333em;
+  padding: 0.333em;
   text-align: center;
 }
 
 #top-div {
-  background-color:red;
+  background-color: red;
 }
 
 #mid-div {
