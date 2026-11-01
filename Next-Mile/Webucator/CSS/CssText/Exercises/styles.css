@@ -10,6 +10,10 @@ body {
     sans-serif;
 }
 
+nav a {
+  letter-spacing: -0.05rem;
+}
+
 #welcome {
   font-size: larger;
 }
@@ -18,6 +22,7 @@ article h2 {
   font-variant: small-caps;
   text-align: center;
   line-height: 1.2em;
+  text-transform: uppercase;
 }
 
 article p {
