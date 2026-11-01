@@ -3,7 +3,11 @@ html {
 }
 
 body {
-  font: 1rem/1.3 Verdana, Geneva, Tahoma, sans-serif;
+  font:
+    1rem/1.3 Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
 }
 
 #welcome {
@@ -12,14 +16,27 @@ body {
 
 article h2 {
   font-variant: small-caps;
+  text-align: center;
+  line-height: 1.2em;
 }
 
 article p {
   line-height: 2;
+  text-align: center;
+  word-spacing: 1.2em;
 }
 
 aside label {
   font-weight: bold;
+}
+
+aside {
+  text-align: right;
+}
+
+h1 {
+  color: #0503d4;
+  text-shadow: 2px 2px grey;
 }
 
 footer {
