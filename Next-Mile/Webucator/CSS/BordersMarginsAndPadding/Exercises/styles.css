@@ -3,7 +3,17 @@ html {
 }
 
 body {
-  font: 1rem/1.3 Verdana, Geneva, Tahoma, sans-serif;
+  font:
+    1rem/1.3 Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+}
+header {
+  border: 1px solid black;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 0.5em 0.5em 2em blue;
 }
 
 nav a {
