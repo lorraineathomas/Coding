@@ -11,7 +11,7 @@ body {
 }
 header {
   border: 1px solid black;
-  width: 50%;
+  width: 30%;
   border-radius: 10px;
   box-shadow: 0.5em 0.5em 2em blue;
 }
@@ -31,6 +31,10 @@ nav a {
 
 article {
   text-align: center;
+  border: 1px solid orange;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 90px;
 }
 
 article h2 {
@@ -47,6 +51,11 @@ article p {
 
 .read-more {
   text-decoration: none;
+}
+
+aside {
+  border: 1px solid purple;
+  border-radius: 5px;
 }
 
 aside label {
