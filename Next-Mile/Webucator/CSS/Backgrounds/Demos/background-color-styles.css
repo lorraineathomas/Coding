@@ -1,5 +1,5 @@
 /* The "box" class is used for display purposes only */
-.box { 
+.box {
   border: 1px solid black;
   float: left; /* allows boxes to be side by side */
   height: 100px;
