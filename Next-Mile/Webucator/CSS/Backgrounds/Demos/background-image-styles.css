@@ -1,8 +1,8 @@
 /* The "box" class is used for display purposes only */
 .box {
-  border: 1px solid black;
+  border: 10px solid black;
   font-weight: bold;
-  height: 150px;
+  height: 200px;
   padding: 1rem;
   margin: 1rem;
   width: 300px;
