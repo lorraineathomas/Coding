@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(0,0%,98%);
+  background-color: hsl(0, 0%, 98%);
 }
 
 .hint {
@@ -17,14 +17,14 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 1.2em;
-  margin: .5em .5em 0 .5em;
-  padding: .1em;
+  margin: 0.5em 0.5em 0 0.5em;
+  padding: 0.1em;
 }
 
 .hint .hint-content {
-  background-clip: padding-box;
+  background-clip: border-box;
   background-color: #ffc;
-  border: double .5em rgba(0,102,255,.1);
+  border: double 0.5em rgba(0, 102, 255, 0.1);
   border-radius: 10px;
   height: 80%;
   overflow: auto;
