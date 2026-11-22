@@ -14,10 +14,11 @@ body {
 nav {
   border: solid rgb(110, 78, 226) 0.1rem;
   border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem 1rem rgb(110, 78, 226, 0.5);
+  box-shadow: 0.5rem 0.5rem 1rem rgb(110, 78, 226, 0.75);
   margin: 1rem;
   width: 40%;
-  background: white;
+  background-color: white;
+  background-image: url(images/runner.png) no-repeat bottom right;
 }
 
 nav a {
