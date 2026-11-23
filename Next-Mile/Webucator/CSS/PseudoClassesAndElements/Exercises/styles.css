@@ -30,7 +30,7 @@ nav a:hover {
   color: purple;
 }
 
-nav a:visited {
+nav a:active {
   color: red;
 }
 
