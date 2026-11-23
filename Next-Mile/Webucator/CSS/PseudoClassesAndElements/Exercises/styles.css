@@ -5,7 +5,11 @@ html {
 body {
   background-image: url(images/runners.png);
   background-size: cover;
-  font: 1rem/1.3 Verdana, Geneva, Tahoma, sans-serif;
+  font:
+    1rem/1.3 Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
 }
 
 nav {
@@ -13,12 +17,26 @@ nav {
   background-color: white;
   border: solid rgb(110, 78, 226) 0.1rem;
   border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem 1rem rgb(110, 78, 226, .5);
+  box-shadow: 0.5rem 0.5rem 1rem rgb(110, 78, 226, 0.5);
   margin: 1rem;
   width: 40%;
 }
 
 nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: purple;
+}
+
+nav a:visited {
+  color: red;
+}
+
+a,
+a:visited {
+  color: blue;
   text-decoration: none;
 }
 
@@ -46,6 +64,8 @@ article {
   padding: 1rem;
   max-width: 75%;
   text-align: center;
+  box-shadow: 5px 5px 10px blue;
+  text-transform: capitalize;
 }
 
 article h2 {
@@ -59,9 +79,25 @@ article p {
   text-align: left;
   text-indent: 3rem;
 }
+article p::first-letter {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+article p::first-line {
+  font-style: italic;
+}
 
 .read-more {
   text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+.read-more:visited {
+  color: purple;
 }
 
 aside label {
@@ -73,7 +109,7 @@ aside label {
   border: 1px dashed rgb(110, 78, 226);
   border-radius: 1em;
   margin: 0 1rem;
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
   text-align: right;
 }
 
